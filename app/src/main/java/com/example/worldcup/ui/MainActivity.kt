@@ -34,7 +34,6 @@ class MainActivity:BaseActivity<ActivityMainBinding> (),MatchInteractionListener
     override fun addCallBacks() {
         binding!!.fab.setOnClickListener {
             addFinalMatch()
-
         }
 //        _binding?.apply {
 //            nextIcon.setOnClickListener {
